@@ -1,0 +1,147 @@
+--// Load Rayfield UI
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "Hacker Hub v4.5",
+   LoadingTitle = "Launching Exploiting Tools...",
+   LoadingSubtitle = "Fly, abuse, nuke — your way",
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = "LuckAdminPanel",
+      FileName = "AdminConfig"
+   },
+   Discord = {
+      Enabled = false
+   },
+   KeySystem = false
+})
+
+--// Main Tab
+local AdminTab = Window:CreateTab("Script Launcher", 4483362458)
+
+--// Fly GUI Button
+AdminTab:CreateButton({
+   Name = "🕊️ Launch Fly GUI",
+   Callback = function()
+      loadstring(game:HttpGet("https://gist.githubusercontent.com/renaldasscript/ab234e3ed6eaab98d485eed4bfa7517d/raw/e49eed820353724f0c59c8a4ba2acd806d22dfcc/gistfile1.txt"))()
+   end,
+})
+
+--// Infinite Yield Button
+AdminTab:CreateButton({
+   Name = "⚡ Launch Infinite Yield",
+   Callback = function()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+   end,
+})
+
+--// Touch Fling Script Button
+AdminTab:CreateButton({
+   Name = "🌀 Launch Touch Fling Script",
+   Callback = function()
+      loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Touch-Fling-Script-19645"))()
+   end,
+})
+
+--// Forsaken Troll Tab
+local TrollTab = Window:CreateTab("Forsaken Troll", 4483362458)
+
+--// Chance Aimbot v2 Script Button
+TrollTab:CreateButton({
+   Name = "🎯 Launch Chance Aimbot v2",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/skibidi399/Chance-aimbot/refs/heads/main/Chance%20aimbot%20v2"))()
+   end,
+})
+
+--// AutoBLOCKKKWAH V1 Script Button
+TrollTab:CreateButton({
+   Name = "🧱 Launch AutoBLOCKKKWAH V1",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/LolnotaKid/project/refs/heads/main/AutoBLOCKKKWAHV1"))()
+   end,
+})
+
+--// Voidsaken Forsaken Script Button
+TrollTab:CreateButton({
+   Name = "🌌 Launch Voidsaken Forsaken Script",
+   Callback = function()
+      loadstring(game:HttpGet("https://rawscripts.net/raw/Forsaken-Voidsaken-Keyless-Forsaken-Script-54912"))()
+   end,
+})
+
+--// Dandys World Troll Tab
+local DandyTab = Window:CreateTab("dandys world troll", 4483362458)
+
+--// Dandy's World Script Button
+DandyTab:CreateButton({
+   Name = "🌍 Launch Dandy's World Script",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Bac0nHck/Scripts/main/Dandy's%20World"))("t.me/arceusxscripts")
+   end,
+})
+
+--// G0bbyD0llan DW Update 6 Script Button
+DandyTab:CreateButton({
+   Name = "🧨 Launch DW Update 6 (G0bbyD0llan)",
+   Callback = function()
+      loadstring(game:HttpGet("https://rawscripts.net/raw/Dandy's-World-ALPHA-G0bbyD0llan-DW-Update-6-30158"))()
+   end,
+})
+
+--// Nds Trolls Tab
+local NdsTab = Window:CreateTab("Nds trolls", 4483362458)
+
+--// NDS Hub Button
+NdsTab:CreateButton({
+   Name = "🌪️ Launch NDS Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://rawscripts.net/raw/Natural-Disaster-Survival-Katers-NDS-Hub-19533"))()
+   end,
+})
+
+--// CoolGUI Script Button
+NdsTab:CreateButton({
+   Name = "🎮 Launch CoolGUI Script",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/cfsmi2/c00lguiv1/refs/heads/main/Main.lua", true))()
+   end,
+})
+
+--// Fling All Script Button
+NdsTab:CreateButton({
+   Name = "🚀 Launch Fling All Script",
+   Callback = function()
+      loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fling-All-55639"))()
+   end,
+})
+
+--// 99 Nights Trolls Tab
+local NightsTab = Window:CreateTab("99 nights trolls", 4483362458)
+
+--// Nights in the Forest Script Button
+NightsTab:CreateButton({
+   Name = "🌙 Launch Nights in the Forest Script",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua", true))()
+   end,
+})
+
+--// FoxnameHub Script Button
+NightsTab:CreateButton({
+   Name = "🦊 Launch FoxnameHub Script",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/FoxnameHub.lua"))()
+   end,
+})
+
+--// Dye of Deaf Tab
+local DyeTab = Window:CreateTab("dye of deaf", 4483362458)
+
+--// Die Of Death Nexer Hub Script Button
+DyeTab:CreateButton({
+   Name = "💀 Launch Die Of Death Nexer Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://rawscripts.net/raw/Die-of-Death-Die-Of-Death-Nexer-Hub-41905"))()
+   end,
+})
