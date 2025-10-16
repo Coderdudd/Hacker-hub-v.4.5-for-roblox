@@ -135,6 +135,14 @@ NightsTab:CreateButton({
    end,
 })
 
+--// Ringta Script Button
+NightsTab:CreateButton({
+   Name = "🔔 Launch Ringta Script",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/wefwef127382/99daysloader.github.io/refs/heads/main/ringta.lua"))()
+   end,
+})
+
 --// Dye of Deaf Tab
 local DyeTab = Window:CreateTab("dye of deaf", 4483362458)
 
