@@ -19,7 +19,6 @@ local Window = Rayfield:CreateWindow({
 --// Main Tab
 local AdminTab = Window:CreateTab("Script Launcher", 4483362458)
 
---// Fly GUI Button
 AdminTab:CreateButton({
    Name = "🕊️ Launch Fly GUI",
    Callback = function()
@@ -27,7 +26,6 @@ AdminTab:CreateButton({
    end,
 })
 
---// Infinite Yield Button
 AdminTab:CreateButton({
    Name = "⚡ Launch Infinite Yield",
    Callback = function()
@@ -35,7 +33,6 @@ AdminTab:CreateButton({
    end,
 })
 
---// Touch Fling Script Button
 AdminTab:CreateButton({
    Name = "🌀 Launch Touch Fling Script",
    Callback = function()
@@ -46,7 +43,6 @@ AdminTab:CreateButton({
 --// Forsaken Troll Tab
 local TrollTab = Window:CreateTab("Forsaken Troll", 4483362458)
 
---// Chance Aimbot v2 Script Button
 TrollTab:CreateButton({
    Name = "🎯 Launch Chance Aimbot v2",
    Callback = function()
@@ -54,7 +50,6 @@ TrollTab:CreateButton({
    end,
 })
 
---// AutoBLOCKKKWAH V1 Script Button
 TrollTab:CreateButton({
    Name = "🧱 Launch AutoBLOCKKKWAH V1",
    Callback = function()
@@ -62,7 +57,6 @@ TrollTab:CreateButton({
    end,
 })
 
---// Voidsaken Forsaken Script Button
 TrollTab:CreateButton({
    Name = "🌌 Launch Voidsaken Forsaken Script",
    Callback = function()
@@ -70,10 +64,16 @@ TrollTab:CreateButton({
    end,
 })
 
+TrollTab:CreateButton({
+   Name = "🐾 Launch Nyansaken v5 Script",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/NyansakenHub/NyansakenHub/refs/heads/main/nyansakenv5"))()
+   end,
+})
+
 --// Dandys World Troll Tab
 local DandyTab = Window:CreateTab("dandys world troll", 4483362458)
 
---// Dandy's World Script Button
 DandyTab:CreateButton({
    Name = "🌍 Launch Dandy's World Script",
    Callback = function()
@@ -81,7 +81,6 @@ DandyTab:CreateButton({
    end,
 })
 
---// G0bbyD0llan DW Update 6 Script Button
 DandyTab:CreateButton({
    Name = "🧨 Launch DW Update 6 (G0bbyD0llan)",
    Callback = function()
@@ -92,7 +91,6 @@ DandyTab:CreateButton({
 --// Nds Trolls Tab
 local NdsTab = Window:CreateTab("Nds trolls", 4483362458)
 
---// NDS Hub Button
 NdsTab:CreateButton({
    Name = "🌪️ Launch NDS Hub",
    Callback = function()
@@ -100,7 +98,6 @@ NdsTab:CreateButton({
    end,
 })
 
---// CoolGUI Script Button
 NdsTab:CreateButton({
    Name = "🎮 Launch CoolGUI Script",
    Callback = function()
@@ -108,7 +105,6 @@ NdsTab:CreateButton({
    end,
 })
 
---// Fling All Script Button
 NdsTab:CreateButton({
    Name = "🚀 Launch Fling All Script",
    Callback = function()
@@ -119,7 +115,6 @@ NdsTab:CreateButton({
 --// 99 Nights Trolls Tab
 local NightsTab = Window:CreateTab("99 nights trolls", 4483362458)
 
---// Nights in the Forest Script Button
 NightsTab:CreateButton({
    Name = "🌙 Launch Nights in the Forest Script",
    Callback = function()
@@ -127,7 +122,6 @@ NightsTab:CreateButton({
    end,
 })
 
---// FoxnameHub Script Button
 NightsTab:CreateButton({
    Name = "🦊 Launch FoxnameHub Script",
    Callback = function()
@@ -135,7 +129,6 @@ NightsTab:CreateButton({
    end,
 })
 
---// Ringta Script Button
 NightsTab:CreateButton({
    Name = "🔔 Launch Ringta Script",
    Callback = function()
@@ -146,7 +139,6 @@ NightsTab:CreateButton({
 --// Dye of Deaf Tab
 local DyeTab = Window:CreateTab("dye of deaf", 4483362458)
 
---// Die Of Death Nexer Hub Script Button
 DyeTab:CreateButton({
    Name = "💀 Launch Die Of Death Nexer Hub",
    Callback = function()
