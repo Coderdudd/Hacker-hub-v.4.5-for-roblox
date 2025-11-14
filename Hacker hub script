@@ -88,6 +88,13 @@ DandyTab:CreateButton({
    end,
 })
 
+DandyTab:CreateButton({
+   Name = "🎭 Launch Dandy's World ALPHA",
+   Callback = function()
+      loadstring(game:HttpGet("https://rawscripts.net/raw/Dandy's-World-ALPHA-Dandys-World-50352"))()
+   end,
+})
+
 --// Nds Trolls Tab
 local NdsTab = Window:CreateTab("Nds trolls", 4483362458)
 
