@@ -40,6 +40,22 @@ AdminTab:CreateButton({
    end,
 })
 
+--// Zombie FE Script Button
+AdminTab:CreateButton({
+   Name = "🧟 Zombie FE",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastefy.app/JOWniO6o/raw"))()
+   end,
+})
+
+--// Chat Bypasser Script Button
+AdminTab:CreateButton({
+   Name = "💬 Chat Bypasser",
+   Callback = function()
+      loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Must-Chat-Byp*er-65109"))()
+   end,
+})
+
 --// Forsaken Troll Tab
 local TrollTab = Window:CreateTab("Forsaken Troll", 4483362458)
 
