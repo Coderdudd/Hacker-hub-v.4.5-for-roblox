@@ -81,9 +81,9 @@ TrollTab:CreateButton({
 })
 
 TrollTab:CreateButton({
-   Name = "🐾 Launch Nyansaken v5 Script",
+   Name = "🐾 Launch Nyansaken Script",
    Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/NyansakenHub/NyansakenHub/refs/heads/main/nyansakenv5"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/femboyiscool/Nyansaken/refs/heads/main/nyansaken.lua"))()
    end,
 })
 
