@@ -81,9 +81,9 @@ TrollTab:CreateButton({
 })
 
 TrollTab:CreateButton({
-   Name = "🐾 Launch Nyansaken Script",
+   Name = "🐾 Launch Nyansaken v5 Script",
    Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/femboyiscool/Nyansaken/refs/heads/main/nyansaken.lua"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/NyansakenHub/NyansakenHub/refs/heads/main/nyansakenv5"))()
    end,
 })
 
@@ -166,5 +166,15 @@ DyeTab:CreateButton({
    Name = "💀 Launch Die Of Death Nexer Hub",
    Callback = function()
       loadstring(game:HttpGet("https://rawscripts.net/raw/Die-of-Death-Die-Of-Death-Nexer-Hub-41905"))()
+   end,
+})
+
+--// Bladeball Tab
+local BladeTab = Window:CreateTab("bladeball", 4483362458)
+
+BladeTab:CreateButton({
+   Name = "⚔️ Launch Bladeball Script",
+   Callback = function()
+      loadstring(game:HttpGet("https://api.junkie-development.de/api/v1/luascripts/public/9048046eb152f1b4e0e78469dcd6e380c9c481f400dc44f9ea3dbd0139c310f8/download"))()
    end,
 })
