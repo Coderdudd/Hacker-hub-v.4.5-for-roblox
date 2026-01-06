@@ -54,13 +54,6 @@ AdminTab:CreateButton({
    end,
 })
 
-AdminTab:CreateButton({
-   Name = "script Button",
-   Callback = function()
-      loadstring(game:HttpGet("https://rawscripts.net/raw/Build-A-Boat-For-Treasure-Ultimte-B3BFT-Script-28601"))()
-   end,
-})
-
 --// Forsaken Troll Tab
 local TrollTab = Window:CreateTab("Forsaken Troll", 4483362458)
 
